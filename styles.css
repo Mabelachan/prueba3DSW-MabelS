@@ -1,0 +1,48 @@
+body{
+    font-family: 'Mulish', sans-serif;
+    font-family: 'Raleway', sans-serif;
+}
+.azul label{
+    color: blue;
+}
+.morado label{
+    color: purple;
+}
+.naranjo label{
+    color: orange;
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    max-width: 500px;
+    max-height: 200px;
+    margin-left: 450px;
+    margin-top: 40px;
+}
+.square{
+    height: 100px;
+    border: solid 1px rgb(146, 146, 146)
+
+}
+.selection{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+.container{
+    text-align: center;
+}
+.colorSelector{
+    width: 150px;
+    margin-left: 110px;
+    text-align: initial;
+}
+.letterSelector div, .colorSelector div{
+    margin: 10px;
+}
+.colors{
+    grid-area: 1/2;
+}
+.letters{
+    grid-area: 1/3;
+}
